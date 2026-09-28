@@ -1,0 +1,18 @@
+experiment: fusion_ablation
+table: Table 11
+split: same_fixed_8_1_1_split
+checkpoint_selection: best_validation_macro_f1
+early_stopping_termination: false
+variants:
+  - direct_concat
+  - dcmif_only
+  - token_attention
+  - cross_attention
+  - bilinear_gate
+  - dcmif_mhsa
+metrics:
+  - val_acc
+  - val_macro_f1
+  - test_acc
+  - test_macro_f1
+

@@ -1,0 +1,10 @@
+Perturbation setting,ACC,Macro-F1,ACC drop,Macro-F1 drop
+Clean test set,TBD,TBD,0.0000,0.0000
+Visual Gaussian noise,TBD,TBD,TBD,TBD
+Visual center occlusion,TBD,TBD,TBD,TBD
+Audio Gaussian noise,TBD,TBD,TBD,TBD
+Visual modality missing,TBD,TBD,TBD,TBD
+Audio modality missing,TBD,TBD,TBD,TBD
+Text modality missing,TBD,TBD,TBD,TBD
+Image and audio modalities missing,TBD,TBD,TBD,TBD
+

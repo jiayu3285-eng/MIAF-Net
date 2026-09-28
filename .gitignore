@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+outputs/
+results/features/
+results/baselines/
+table*_reproduced.csv
+table*_reproduced.json
+*.pt
+*.pth
+

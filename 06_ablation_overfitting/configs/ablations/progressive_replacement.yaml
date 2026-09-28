@@ -1,0 +1,17 @@
+experiment: progressive_replacement
+table: Table 10
+split: same_fixed_8_1_1_split
+checkpoint_selection: best_validation_macro_f1
+early_stopping_termination: false
+variants:
+  - miaf_base
+  - miaf_t
+  - miaf_ti
+  - miaf_tia
+  - miaf_net
+metrics:
+  - val_acc
+  - val_macro_f1
+  - test_acc
+  - test_macro_f1
+

@@ -1,0 +1,15 @@
+model_key: almt
+model_name: ALMT
+text_dim: 512
+image_dim: 768
+audio_dim: 256
+hidden_dim: 128
+dropout: 0.3
+epochs: 100
+batch_size: 64
+lr: 0.0002
+weight_decay: 0.00001
+amp: true
+table_params_m: 6.7
+table_training_time_min_per_run: 114
+

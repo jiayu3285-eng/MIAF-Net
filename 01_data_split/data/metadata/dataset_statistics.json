@@ -1,0 +1,43 @@
+{
+  "sample_list": {
+    "samples": 1958,
+    "label_distribution": {
+      "pos": 920,
+      "neu": 915,
+      "neg": 123
+    }
+  },
+  "splits": {
+    "train": {
+      "samples": 1566,
+      "label_distribution": {
+        "pos": 736,
+        "neu": 732,
+        "neg": 98
+      }
+    },
+    "val": {
+      "samples": 196,
+      "label_distribution": {
+        "pos": 92,
+        "neu": 92,
+        "neg": 12
+      }
+    },
+    "test": {
+      "samples": 196,
+      "label_distribution": {
+        "pos": 92,
+        "neu": 91,
+        "neg": 13
+      }
+    }
+  },
+  "overlaps": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "missing_from_splits": 0,
+  "unknown_in_splits": 0
+}

@@ -1,0 +1,18 @@
+experiment: regularization_controls
+table: Table 8
+split: same_fixed_8_1_1_split
+checkpoint_selection: best_validation_macro_f1
+early_stopping_termination: false
+settings:
+  - frozen_encoders_full_fusion_head
+  - frozen_encoders_linear_concat_classifier
+  - frozen_encoders_small_concat_mlp
+  - dropout_control
+  - weight_decay_control
+  - hidden_size_control
+metrics:
+  - val_acc
+  - val_macro_f1
+  - test_acc
+  - test_macro_f1
+

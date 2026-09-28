@@ -1,0 +1,16 @@
+experiment: overfitting_summary
+table: Table 7
+split: same_fixed_8_1_1_split
+purpose: compare training, validation, and independent test gaps
+checkpoint_selection: best_validation_macro_f1
+early_stopping_termination: false
+metrics:
+  - train_acc
+  - train_macro_f1
+  - val_acc
+  - val_macro_f1
+  - test_acc
+  - test_macro_f1
+  - train_val_f1_gap
+  - train_test_f1_gap
+
